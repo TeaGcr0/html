@@ -18,17 +18,72 @@
 
   <div> 
     <table>
+         <th scope="col">Company Name</th>
+         <td colspan="1"></td>
+         <th scope="col">Number of Items to Ship</th>
+         <td colspan="2"></td>
+         <th scope="col">Next Action</th>
+     
+         <tr>
+           <td>Adam’s Greenworks</td>
+           <td>14</td>
+           <td>Package Items</td>
+         </tr>
+
+         <tr>
+            <td>Davie's Burgers</td>
+            <td>2</td>
+            <td>Send Invoice</td>
+          </tr>
+
         <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
         </tr>
 
         <tr>
-          <td>Adam’s Greenworks</td>
-          <td>14</td>
-          <td>Package Items</td>
-         </tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+
+        <tr>
+          <td>Strike Fitness</td>
+          <td>1</td>
+          <td>Enter Order</td>
+        </tr>
 
     </table>
   </div>
+
+<div> 
+  <table>
+  <tr> <!-- Row 1 -->
+    <th></th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+  <tr> <!-- Row 2 -->
+    <th>Morning</th>
+    <td rowspan="2">Work</td>
+    <td rowspan="3">Relax</td>
+  </tr>
+  <tr> <!-- Row 3 -->
+    <th>Afternoon</th>
+  </tr>
+  <tr> <!-- Row 4 -->
+    <th>Evening</th>
+    <td>Dinner</td>
+  </tr>
+</table>
+</div>
 
 </body>
 </html>
