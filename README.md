@@ -20,7 +20,9 @@ Line breaks are created with the <br> tag.
 Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
 Images (<img>) and videos (<video>) can be added by linking to an existing source.
 In the next lesson, we’ll take the content that you’ve added to this website and transform it into an HTML document that’s ready to go on the web.
+```
 
+```
 HTML Tags
 You now know all of the basic elements and set-up you need to structure an HTML page and add different types of content. With the help of CSS, very soon you’ll be creating beautiful websites!
 
@@ -38,9 +40,10 @@ Whitespace between HTML elements helps make code easier to read while not changi
 Indentation also helps make code easier to read. It makes parent-child relationships visible.
 Comments are written in HTML using the following syntax: <!-- comment -->.
 Take some time to edit the workspace you created and observe how it changes!
+```
 
 
-
+```
 HTML TABLES
 Review
 Great job! In this lesson, we learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.
@@ -59,8 +62,9 @@ A table’s body is created with the <tbody> element.
 A table’s footer is created with the <tfoot> element.
 All the CSS properties you learned about in this course can be applied to tables and their data.
 Congratulations on completing HTML Tables!
+```
 
-
+```
 HTML FORMS
 Review
 Nice work interacting with the extremely common and useful <form> element!
