@@ -2,7 +2,7 @@
 html vježbe
 
 
-
+```
 INTRODUCTION TO HTML
 Review
 Congratulations on completing the first lesson of HTML! You are well on your way to becoming a skilled web developer.
@@ -84,3 +84,4 @@ A <datalist> element is populated with <option> elements and works with an <inpu
 A <textarea> element is a text input field that has a customizable area.
 When a <form> is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.
 Using the <form> element in conjunction with the other elements listed above allows us to create sites that take into consideration the wants and needs of our users. Take the opportunity to take what you’ve learned, and apply it!
+```
