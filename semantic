@@ -1,0 +1,178 @@
+<!-- SEMANTIC HTML
+Introduction to Semantic HTML
+When building web pages, we use a combination of non-semantic HTML and Semantic HTML. The word semantic means “relating to meaning,” so semantic elements provide information about the content between the opening and closing tags.
+
+By using Semantic HTML, we select HTML elements based on their meaning, not on how they are presented. Elements such as <div> and <span> are not semantic elements since they provide no context as to what is inside of those tags.
+
+For example, instead of using a <div> element to contain our header information, we could use a <header> element, which is used as a heading section. By using a <header> tag instead of a <div>, we provide context as to what information is inside of the opening and closing tag.
+
+Why use Semantic HTML?
+
+Accessibility: Semantic HTML makes webpages accessible for mobile devices and for people with disabilities as well. This is because screen readers and browsers are able to interpret the code better.
+
+SEO: It improves the website SEO, or Search Engine Optimization, which is the process of increasing the number of people that visit your webpage. With better SEO, search engines are better able to identify the content of your website and weight the most important content appropriately.
+
+Easy to Understand: Semantic HTML also makes the website’s source code easier to read for other web developers.
+
+To better understand this, you can think of comparing non-semantic HTML to going into a store with no signs on the aisles. Since the aisles aren’t labeled, you don’t know what products are in those aisles. However, stores that do have signs for each aisle make it a lot easier to find the items you need, just like Semantic HTML. -->
+
+<!-- https://content.codecademy.com/courses/updated_images/SemanticVSNonSemantic_Diagram_Updated_1.svg -->
+
+**Header and Nav**
+<!DOCTYPE html>
+<html>
+  <body>
+    <header id="header">      </header>
+      <h1>Navigational Links</h1>
+      <nav id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  </body>
+</html>
+
+**Main and Footer**
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <p>This is where the main content will go once the page is built out!</p>
+    </main>
+    
+    <footer id="footer">
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+    
+  </body>
+</html>
+
+**Article and Section**
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+        Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+          </p>
+        </article>
+      </section>   
+    </main>
+    
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+              
+  </body>
+</html>
+
+**The Aside Element** 
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+          Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside id="aside" >
+          <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+          </p> 
+        </aside>
+      </section>   
+    </main>
+    
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+              
+  </body>
+</html>
+
+**Figure and Figcaption**
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+          Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+          </p> 
+        </aside>
+      </section> 
+      <!--Create <figure> tag here -->
+      <figure>
+        <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg">
+        <figcaption>This picture shows dog.</figcaption>
+       </figure>
+      
+      
+    </main>
+    
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+              
+  </body>
+</html>
+
